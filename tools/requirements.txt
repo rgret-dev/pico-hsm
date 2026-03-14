@@ -1,0 +1,3 @@
+pycvc
+pypicokey @ git+https://github.com/librekeys/pypicokey-mirror
+pypicohsm @ git+https://github.com/librekeys/pypicohsm

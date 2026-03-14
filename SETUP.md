@@ -1,0 +1,6 @@
+- `cd tools`
+- add requirements.txt mentioned in https://gist.github.com/rrottmann/6db8cf92fc4501c78a7dc5d9a9d21914
+- `python3 pico-hsm-tool.py initialize --no-dev-cert`
+- `pkcs11-tool --login --login-type so --so-pin 3537363231383830 --change-pin --new-pin <so_pin_string_hex>`
+- `pkcs11-tool --login --login-type so --so-pin <so_pin_string_hex> --init-pin --new-pin <six_digit_pin>`
+- test: `pkcs11-tool --list-objects --pin <six_digit_pin>`
