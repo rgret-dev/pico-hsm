@@ -4,3 +4,4 @@
 - `pkcs11-tool --login --login-type so --so-pin 3537363231383830 --change-pin --new-pin <so_pin_string_hex>`
 - `pkcs11-tool --login --login-type so --so-pin <so_pin_string_hex> --init-pin --new-pin <six_digit_pin>`
 - test: `pkcs11-tool --list-objects --pin <six_digit_pin>`
+- keygen example: `pkcs11-tool --keypairgen --key-type rsa:2048 --id 01 --label "test-rsa" --pin <six_digit_pin>`
